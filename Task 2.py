@@ -44,8 +44,8 @@ print ('RMSE is: \n', mean_squared_error(y_test, predictions))
 
 actual_values = y_test
 plt.scatter(predictions, actual_values,
-            color='b') #alpha helps to show overlapping data
-plt.xlabel('Predicted Price')
-plt.ylabel('Actual Price')
+            color='b')
+plt.xlabel('Predicted Quality')
+plt.ylabel('Actual Quality')
 plt.title('Linear Regression Model')
 plt.show()
